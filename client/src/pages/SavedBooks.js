@@ -33,7 +33,6 @@ const SavedBooks = () => {
         variables: { bookId: bookId },
       });
 
-      userData = user;
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
