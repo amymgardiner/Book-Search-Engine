@@ -14,11 +14,8 @@ import { useQuery, useMutation } from '@apollo/client';
 
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
-  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
   const userData = data?.me || {};
-
-  // use this to determine if `useEffect()` hook needs to run again
-  const userDataLength = Object.keys(userData).length;
+  const [removeBook] = useMutation(REMOVE_BOOK);
 
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
@@ -29,10 +26,13 @@ const SavedBooks = () => {
     }
 
     try {
-      const { data } = await removeBook({
-        variables: { bookId: bookId },
+      const { user } = await removeBook({
+        variables: {
+          bookId: bookId,
+        },
       });
 
+      userData = user;
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
