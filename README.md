@@ -12,7 +12,7 @@ I created an Apollo Provider so that requests can communicate with an Apollo Ser
 
 And then I deployed the application to Heroku.
 
-Update: Due to the removal of Heroku's free product plans, I have found another free hosting platform that was not taught in the bootcamp. The [Heroku link](https://shielded-coast-80964.herokuapp.com/) for this site no longer works. Please view this site with the new link below. Thanks!
+**Update: Due to the removal of Heroku's free product plans, I have found another free hosting platform that was not taught in the bootcamp. The [Heroku link](https://shielded-coast-80964.herokuapp.com/) for this site no longer works. Please view this site with the new link below. Thanks!**
 
 ## Expected Behavior
 
