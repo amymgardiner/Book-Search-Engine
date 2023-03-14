@@ -12,6 +12,8 @@ I created an Apollo Provider so that requests can communicate with an Apollo Ser
 
 And then I deployed the application to Heroku.
 
+Update: Due to the removal of Heroku's free product plans, I have found another free hosting platform that was not taught in the bootcamp. The [Heroku link](https://shielded-coast-80964.herokuapp.com/) for this site no longer works. Please view this site with the new link below. Thanks!
+
 ## Expected Behavior
 
 GIVEN a book search engine, WHEN you load the search engine, THEN you are presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button.
@@ -32,6 +34,6 @@ WHEN you click on the Logout button, THEN you are logged out of the site and pre
 
 ## Final APP
 
-[Deployed App Link](https://shielded-coast-80964.herokuapp.com/)
+[Deployed App Link](https://strong-sopapillas-310959.netlify.app)
 
 ![shielded-coast-80964 herokuapp com_](https://user-images.githubusercontent.com/99151426/194615566-52ace664-338a-432a-bd4a-65d39562d151.png)
