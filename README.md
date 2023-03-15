@@ -34,6 +34,8 @@ WHEN you click on the Logout button, THEN you are logged out of the site and pre
 
 ## Final APP
 
+`Note: I use Render now for hosting my school projects, on their free plan. A free plan will spin down after 15 minutes of inactivity, and the next request will spin it back up, which can take awhile. So please be patient as the site may take some time to initially load due to Render restrictions.`
+
 [Deployed App Link](https://book-search-engine-wcg9.onrender.com/)
 
 ![shielded-coast-80964 herokuapp com_](https://user-images.githubusercontent.com/99151426/194615566-52ace664-338a-432a-bd4a-65d39562d151.png)
