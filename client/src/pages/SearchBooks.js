@@ -28,8 +28,9 @@ const SearchBooks = () => {
   const [saveBook, { error }] = useMutation(SAVE_BOOK);
   // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
   useEffect(() => {
-    return () => saveBookIds(savedBookIds);
-  });
+    const updatedSavedBookIds = getSavedBookIds();
+    setSavedBookIds(updatedSavedBookIds);
+  }, []);
 
   // create method to search for books and set state on form submit
   const handleFormSubmit = async (event) => {
